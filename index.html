@@ -1,87 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/reset.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guilherme Piccini – Full Stack Developer</title>
+  <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
-
 </head>
 <body>
-    <header class="header">
-  <h1>Guilherme Piccini</h1>
 
-  <nav class="nav">
-    <button class="menu-toggle" id="menu-toggle">
-      ☰
-    </button>
-
-    <ul class="nav-list" id="nav-list">
-      <li><a href="#home">Início</a></li>
-      <li><a href="#about">Sobre</a></li>
-      <li><a href="#projects">Projetos</a></li>
-      <li><a href="#contact">Contato</a></li>
-    </ul>
-  </nav>
-</header>
-
+  <header class="header">
+    <h1>Guilherme Piccini</h1>
+    <nav class="nav">
+      <button class="menu-toggle" id="menu-toggle">☰</button>
+      <ul class="nav-list" id="nav-list">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
   <main>
-
     <section id="home" class="home">
-      <h2>Olá, eu sou Guilherme</h2>
-      <p>Desenvolvedor Front-end</p>
-      <a href="#projects" class="btn">Ver projetos</a>
+      <h2>Hello, I’m Guilherme</h2>
+      <p>full-stack Developer</p>
+      <a href="#projects" class="btn">View Projects</a>
     </section>
 
-    <section id="about">
-      <h2>Sobre mim</h2>
+    <section id="about" class="container">
+      <h2>About Me</h2>
       <p>
-        Sou desenvolvedor front-end, focado em HTML, CSS e JavaScript.
+        I am a front-end developer, focused on HTML, CSS, and JavaScript, evolving towards Full Stack development.
       </p>
     </section>
 
-    <section id="projects" class="projects">
-  <h2>Projetos</h2>
+    <section id="projects" class="projects container">
+      <h2>Projects</h2>
 
-  <div class="github-card" id="github-card">
-    <p>Carregando perfil do GitHub...</p>
-  </div>
-  
-    </article>
-
-    <article class="project-card">
-      <h3>Projeto em breve</h3>
-      <p>Este projeto será adicionado em breve.</p>
-      <div class="project-links">
-        <a href="#">GitHub</a>
-        <a href="#">Demo</a>
+      <div class="github-card" id="github-card">
+        <p>Loading GitHub profile...</p>
       </div>
-    </article>
 
-    <article class="project-card">
-      <h3>Projeto em breve</h3>
-      <p>Este projeto será adicionado em breve.</p>
-      <div class="project-links">
-        <a href="#">GitHub</a>
-        <a href="#">Demo</a>
-      </div>
-    </article>
+      <article class="project-card">
+        <h3>Personal Portfolio</h3>
+        <p>My online portfolio showcasing my front-end skills.</p>
+        <div class="project-links">
+          <a href="https://github.com/guilhermepiccini55-stack" target="_blank">GitHub</a>
+          <a href="https://guilhermepiccini55-stack.github.io" target="_blank">Live Demo</a>
+        </div>
+      </article>
 
+      <article class="project-card">
+        <h2>About Me</h2>
+  <p>I am a full-stack developer.</p>
+  <h3>Skills</h3>
+  <ul class="skills">
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+    <li>React</li>
+    <li>Node.js</li>
+  </ul>
+      </article>
+
+      <article class="project-card">
+        <h3>Upcoming Project</h3>
+        <p>This project will be added soon.</p>
+        <div class="project-links">
+          <a href="#">GitHub</a>
+          <a href="#">Live Demo</a>
+        </div>
+      </article>
+
+    </section>
+
+   <section id="contact" class="container contact-section">
+  <h2>Contact Me</h2>
+  <p>Phone: +55 (53) 99713-6755</p>
+  <p>Email: <a href="mailto:guilhermepiccini55@gmail.com">guilhermepiccini55@gmail.com</a></p>
+
+  <div class="social-buttons">
+    <a href="https://github.com/guilhermepiccini55-stack" target="_blank" class="social-btn">GitHub</a>
+    <a href="https://www.linkedin.com/in/guilherme-piccini/" target="_blank" class="social-btn">LinkedIn</a>
+    <a href="mailto:guilhermepiccini55@gmail.com" class="social-btn">Email</a>
   </div>
 </section>
 
-    <section id="contact">
-      <h2>+55 (53) 99713-6755</h2>
-      <p>Email: guilhermepiccini55@gmail.com</p>
-    </section>
 
-  </main>
 
-  <footer>
+  <footer class="container">
     <p>© 2026 Guilherme Piccini</p>
   </footer>
+
   <script src="js/script.js"></script>
 
 </body>
